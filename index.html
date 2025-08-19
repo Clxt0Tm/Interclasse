@@ -11,37 +11,234 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
-    <div class="beginning">
-        <nav role="navigation">
-        <div id="menuToggle">
-            <input type="checkbox" id="menuCheckbox" />
-        
-            <span></span>
-            <span></span>
-            <span></span>
-        
-            <ul id="menu">
-                <li>
-                    <a href="#">
-                    <label for="menuCheckbox" onclick="this.parentNode.click();">Principal</label>
-                    </a>
-                </li>
-                <li>
-                    <a href="#esportes">
-                    <label for="menuCheckbox" onclick="this.parentNode.click();">Esportes</label>
-                    </a>
-                </li>
-                <li><label for="menuCheckbox"><a href="#volei">Volei</a></label></li>
-                <li><label for="menuCheckbox"><a href="#futebol">Futebol</a></label></li>
-                <li><label for="menuCheckbox"><a href="#basquete">Basquete</a></label></li>
-                <li><label for="menuCheckbox"><a href="#tenis">Tênis de Mesa</a></label></li>
-                <li><label for="menuCheckbox"><a href="#participar">Participe</a></label></li>
-                <li><label for="menuCheckbox"><a href="#aapm">AAPM</a></label></li>
-            </ul>
+
+        <section class="secao_esportiva" id="bola">
+            <div class="overlay">
+                <div class="nav_bar">
+                    <div id="menuToggle">
+                        <input type="checkbox" id="menuCheckbox" />
+                    
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    
+                        <ul id="menu">
+                            <li>
+                                
+                                <label for="menuCheckbox" onclick="this.parentNode.click();" class="label_1"><a href="#">PRINCIPAL</a></label>
+                            </li>
+                            <li>
+                                
+                                <label for="menuCheckbox" onclick="this.parentNode.click();" class="label_1"><a href="#tenis">ESPORTES</a></label>
+                            </li>
+                            <li><label for="menuCheckbox" onclick="this.parentNode.click();"><a href="#roxo">AAPM</a></label></li>
+                            <li><label for="menuCheckbox" onclick="this.parentNode.click();"><a href="#login">PARTICIPE</a></label></li>
+                        </ul>
+                    </div>
+                    <div class="space"></div>
+                    <div class="logo_senai"></div>
+                </div>
+
+                <div class="container_beg">
+                <div class="left_page">
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <p class="left">Preparem-se</p>
+                    <p class="left">para uma jornada</p>
+                    <p class="left">épica com</p>
+                    <center>
+                    <img src="img/vaiiiiiiiiiiii-removebg-preview.png" style="width: 200px;"></center>
+                </div>
+                <div class="right_page">
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <p class="right_school">Gaspar Ricardo Jr.</p>
+                    <p class="right_title">Interclasses <br>SENAI</p>
+                    <p class="right_date">25/11 a 28/11</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao_esportiva" id="basquete">
+            <div class="overlay">
+                <div class="container_med">
+                    <p class="text_deco">O interclasse é o espaço</p>
+                    <p class="text_deco">onde a disciplina da sala</p>
+                    <p class="text_deco">encontra a paixão do jogo</p>
+                    <br><br>
+                    <hr>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao_esportiva" id="tenis">
+            <div class="overlay">
+                <div class="container_esp">
+                    <div class="title_div">
+                        <h1 class="sports_title">ESPORTES</h1>
+                    </div>
+                    <div class="box_esportes">
+                        <p class="box_title">Verifique os esportes disponíveis</p>
+                        <br>
+                        <div class="container_games">
+                            <div class="sports_style">
+                                <p class="esportes">Futebol</p>
+                            </div>
+                            <div class="sports_style">
+                                <p class="esportes">Vôlei</p>
+                            </div>
+                            <div class="sports_style">
+                                <p class="esportes">Basquete</p>
+                            </div>
+                            <div class="sports_style">
+                                <p class="esportes">Tênis de Mesa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao_esportiva" id="slider_esportes">
+            <div class="slider">
+                <div class="slides">
+                <div class="slide">
+                    <img src="img/futebol.webp" alt="Imagem 1">
+                    <div class="slide-texto">
+                        <p class="titulo_slider">Futebol</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/volei.jpeg" alt="Imagem 2">
+                    <div class="slide-texto">
+                        <p class="titulo_slider">Vôlei</p>
+                    </div>
+                    </div>
+                <div class="slide">
+                    <img src="img/basquete.jpg" alt="Imagem 3">
+                    <div class="slide-texto">
+                        <p class="titulo_slider">Basquete</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/ping pong.webp" alt="Imagem 4">
+                    <div class="slide-texto">
+                        <p class="titulo_slider">Vôlei</p>
+                    </div>
+                </div>
+                </div>
+        <div class="dots">
+            <span class="dot active" onclick="irParaSlide(0)"></span>
+            <span class="dot" onclick="irParaSlide(1)"></span>
+            <span class="dot" onclick="irParaSlide(2)"></span>
+            <span class="dot" onclick="irParaSlide(3)"></span>
+            </div>
+            <script src="slider.js"></script>
         </div>
-        </nav>
-    </div>
+        </section>
+        
+        <section class="secao_esportiva" id="roxo">
+            <div class="overlay">
+                <div class="list_aapm">
+                    <p class="aapm_title">Associado AAPM: Só Vantagens</p>
+                    <p class="aapm_title">para</p>
+                    <p class="aapm_title">Você!</p>
+                    <br><br><br><br><br>
+                    <div class="list_benefits">
+                        <ul>
+                            <li class="elements_list">Passeios irados</li>
+                            <li class="elements_list">Brindes exclusivos</li>
+                            <li class="elements_list">Wi-Fi liberado na escola (esse é essencial!)</li>
+                            <li class="elements_list">Outras melhorias que fazem a diferença</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao_esportiva" id="login">
+            <div class="overlay">
+
+                <br><br><br><br><br><br><br><br>
+            <!-- Formulário de cadastro de usuario -->
+            <form id="produto-form">
+                <h1 class="title-form">Cadastro de Estudante</h1>
+                <br><br><br><br>
+                <div class="label-deco">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div class="label-deco">
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="E-mail" required>
+                </div>
+
+                <div class="label-deco">
+                    <label for="turma">Turma:</label>
+                    <input type="text" id="turma" name="turma" required>
+                </div>
+
+                <div class="label-deco">
+                    <label for="curso">Curso:</label>
+                    <input type="text" id="curso" name="curso" required>
+                </div>
+
+                <div class="label-deco">
+                    <label for="modalidade_id">Modalidade:</label>
+                </div>
+
+                <div class="label-deco">
+                <select id="modalidade_id" name="modalidade_id" required>
+                    <option value="">Carregando modalidade...</option>
+                </select></div>
+
+                <div class="image-deco">
+                <label for="imagem" class="imagem-label">Imagem (opcional):</label></div>
+                <div class="file-upload-container">
+                    <input type="file" id="imagem" name="imagem" accept="image/*">
+                    <div class="fake-btn">Escolher imagem...</div>
+                    <div class="file-name" id="file-name">Nenhum arquivo selecionado</div>
+                </div>
+
+                <input type="submit" value="Cadastrar Estudante" id="submit-btn">
+            </form>
+
+            <script src="cadastro.js"></script>
+            </div>
+        </section>
+        <br><br><br><br><br>
+
+        <footer>
+            <div class="container_end">
+                <div class="div_left">
+                    <p class="about_us">Sobre nós:</p>
+                    <br><br><br>
+                    <p class="about_us">Site desenvolvido por:</p>
+                    <div class="list_list">
+                        <ul>
+                            <li class="names">Guilherme Barbi</li>
+                            <li class="names">Jhenifer Aguirra</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="div_mid">
+                    <p class="about_us">Faça sua inscrição</p>
+                    <br><br><br><br><br><br>
+                    <div class="button">
+                        <a href="#login" class="button_inc">Inscreva-se</a>
+                    </div>
+                </div>
+                <div class="div_right">
+                    <p class="about_us">Conheça mais da AAPM</p>
+                    <br><br><br><br><br><br>
+                    <div class="button">
+                        <a href="https://aapmsenaisorocaba.com.br/" class="button_inc">Entre no site</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>

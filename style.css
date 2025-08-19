@@ -1,32 +1,63 @@
-body
-{
+* {
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
+}
+body{
   color: #000000;
   font-family: "Wix Madefor Text", sans-serif;
   font-size: 15px;
+  background-color: #6b00b3;
 }
 
-.beginning{
-    height: 1000px;
-    background-image: url(img/fbb0b67c289fa140420e03f43a7e11de7190739a.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+#bola{
+  height: 1725px;
+  background: url(img/fbb0b67c289fa140420e03f43a7e11de7190739a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
 }
+
+#basquete{
+  height: 1000px;
+  background: url(img/353ed88b2a7c680ebc11cbd5d3b3698bf1d4ef18.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tenis{
+  height: 1220px;
+  background: url(img/d66480efde5dc8622adc7dc5bca0844865540d9a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#roxo{
+  height: 1100px;
+  background: url(img/roxo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login{
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 main {
   width: calc(100% - 240px);
   max-width: 680px;
   margin: 100px auto;
 }
 
-p {
-  font-size: 18px;
-  line-height: 28px;
-}
-
-* {
-  scroll-behavior: smooth;
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
 }
 
 #menuToggle
@@ -36,21 +67,21 @@ p {
   top: 50px;
   left: 50px;
   z-index: 1;
-  -webkit-user-select: none;
   user-select: none;
 }
 
 #menuToggle a
 {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   text-decoration: none;
-  color: #232323;
+  color: #ffffff;
   
   transition: color 0.3s ease;
 }
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: #C141FF;
 }
 
 
@@ -58,7 +89,7 @@ p {
 {
   display: block;
   width: 40px;
-  height: 32px;
+  height: 40px;
   position: absolute;
   top: -7px;
   left: -5px;
@@ -105,7 +136,7 @@ p {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #ffffff;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3)
@@ -129,7 +160,7 @@ p {
   padding-top: 125px;
   box-sizing: border-box;
   overflow-y: auto;
-  background: #ffffff;
+  background: #250e33ef;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
@@ -153,3 +184,351 @@ p {
 {
   transform: none;
 }
+
+.label_1{
+  text-decoration: none;
+  color: #ffffff;
+  
+  transition: color 0.3s ease;
+}
+
+.label_1 :hover{
+  color: #C141FF;
+}
+.logo_senai {
+  width: 300px;
+  height: 100px;
+  background-image: url(img/logo_senai.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.container_beg{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 160vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.left_page{
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 100%;
+}
+
+p{
+  font-family: "Wix Madefor Text", sans-serif;
+}
+.left{
+  font-size: 80px;
+  font-weight: bold;
+}
+.right_page{
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.right_school{
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 50px;
+}
+
+.right_title{
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+}
+.right_date{
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.container_med{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; 
+}
+
+.text_deco{
+  font-size: 70px;
+  color: #ffffff;
+  font-family: "Wix Madefor Text", sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+hr{
+  width: 40%;
+  height: 6px;
+  background-color: #ffffff;
+}
+
+.container_esp{
+  height: 129vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_div{
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sports_title{
+  font-size: 90px;
+  font-family: "Wix Madefor Text", sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.box_esportes{
+  width: 62%;
+  height: 80vh;
+  background-color: rgba(148, 146, 146, 0.6);
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.box_title{
+  font-size: 55px;
+  font-family: "Wix Madefor Text", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  opacity: 100%;
+}
+
+.container_games{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 60px 50px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sports_style{
+  background-color: #410669;
+  width: 400px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+  border-radius: 30px;
+}
+
+.list_aapm{
+  height: 124vh;
+  width: 90%;
+  padding-top: 4rem;
+  padding-left: 4rem;
+}
+
+.aapm_title{
+  font-size: 100px;
+  color: #ffffff;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: bold;
+}
+
+.elements_list{
+  font-size: 50px;
+  padding-left: 4rem;
+  color: #ffffff;
+}
+
+footer{
+  height: 500px;
+  background-color: #250E33;
+}
+
+.container_end{
+  display: grid;
+  height: 500px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.div_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  padding-left: 100px;
+}
+
+.about_us{
+  font-size: 40px;
+  color: #ffffff;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: bold;
+}
+
+.list_list{
+  padding-left: 40px;  
+}
+
+.names{
+  font-size: 40px;
+  color: #ffffff;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: bold;
+}
+
+.div_mid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.button{
+  width: 442px;
+  height: 86px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6B00B3;
+  border-radius: 20px;
+}
+.button_inc{
+  text-decoration: none;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.div_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.slider_esportes{
+  height: 100vh;
+  background-color: #6B00B3;
+}
+
+.slider {
+    width: 100%;
+    max-width: 1650px;
+    margin: 115px;
+    box-shadow: #c89971;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .slider img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .slides {
+    display: flex;
+    width: 400%;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: #c89971;
+    border-radius: 20px;
+  }
+  
+
+  .slide {
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slide img {
+    width: 1650px;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+    transition: filter 0.3s ease;
+    z-index: 1;
+    position: relative;
+  }
+
+  .slide:hover img {
+  filter: blur(4px);
+  }
+
+  .slide-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 28px;
+  padding: 16px 32px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 999;
+  opacity: 1 !important;
+  border: 2px dashed red;
+}
+
+.slide:hover .slide-texto {
+  opacity: 1;
+}
+  
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .dot {
+    width: 15px;
+    height: 15px;
+    margin: 0 4px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #333;
+  }
+
+  .titulo_slider{
+    color: #ffffff;
+    font-size: 50px;
+
+  }

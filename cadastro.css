@@ -1,0 +1,164 @@
+body {
+            background:linear-gradient(45deg, #4b00a0, #0f0118);
+        }
+
+        #produto-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #580d9e;
+            font-size: 35px;
+            font-family: "Wix Madefor Text", sans-serif;
+        }
+
+        form {
+            max-width: 800px;
+            height: 800px;
+            background: white;
+            padding: 20px;
+            margin: 0 auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .label-deco{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+
+        .image-deco{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imagem-label{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        label {
+            width: 90%;
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #4b00a0;
+            text-shadow: 4px;
+            font-weight: bold;
+            font-size: 20px;
+            }
+
+        input[type="text"],
+        input[type="number"],
+        textarea,
+        select,
+        input[type="file"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ecaeff;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            border-color: #8d02c4;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background: #580d9e;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+            transition: background 0.3s;
+            width: 40%;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background: #390599;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 40px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        table th, table td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #580d9e;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .file-upload-container {
+            position: relative;
+            max-width: 100%;
+            margin-bottom: 16px;
+        }
+
+        .file-upload-container input[type="file"] {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index: 2;
+            cursor: pointer;
+        }
+
+        .file-upload-container .fake-btn {
+            display: inline-block;
+            width: 100%;
+            padding: 10px;
+            background: #580d9e;
+            color: white;
+            text-align: center;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            font-weight: bold;
+            font-family: "Wix Madefor Text", sans-serif;
+        }
+
+        .file-upload-container .fake-btn:hover {
+            background: #2980b9;
+        }
+
+        .file-upload-container .file-name {
+            margin-top: 6px;
+            font-size: 14px;
+            color: #ffffff;
+            text-align: center;
+        }
