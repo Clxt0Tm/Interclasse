@@ -7,12 +7,12 @@ body{
   color: #000000;
   font-family: "Wix Madefor Text", sans-serif;
   font-size: 15px;
-  background-color: #6b00b3;
+  background-color: #201f53;
 }
 
 #bola{
-  height: 1725px;
-  background: url(img/fbb0b67c289fa140420e03f43a7e11de7190739a.jpg);
+  height: 1100px;
+  background: url(img/background-image1.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -22,27 +22,28 @@ body{
 
 #basquete{
   height: 1000px;
-  background: url(img/353ed88b2a7c680ebc11cbd5d3b3698bf1d4ef18.png);
+  background: url(img/background-image2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #tenis{
   height: 1220px;
-  background: url(img/d66480efde5dc8622adc7dc5bca0844865540d9a.jpg);
+  background: url(img/background-image3.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #roxo{
   height: 1100px;
-  background: url(img/roxo.png);
+  background: url(img/background-image4.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #login{
-  height: 1000px;
+  height: 1100px;
+  background: url(img/background-image3.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -81,7 +82,7 @@ main {
 
 #menuToggle a:hover
 {
-  color: #C141FF;
+  color: #e83a96;
 }
 
 
@@ -160,7 +161,7 @@ main {
   padding-top: 125px;
   box-sizing: border-box;
   overflow-y: auto;
-  background: #250e33ef;
+  background: #201f53;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
@@ -195,83 +196,148 @@ main {
 .label_1 :hover{
   color: #C141FF;
 }
-.logo_senai {
-  width: 300px;
-  height: 100px;
-  background-image: url(img/logo_senai.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right center;
-}
 
 .container_beg{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 160vh;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
   color: white;
 }
 
 .left_page{
   grid-column: 1;
   display: flex;
-  flex-direction: column;
-  align-items: left;
-  height: 100%;
+  height: 70%;
 }
 
 p{
   font-family: "Wix Madefor Text", sans-serif;
 }
 .left{
-  font-size: 80px;
+  font-size: 65px;
+  font-family: "Rubik", sans-serif;
   font-weight: bold;
 }
 .right_page{
   grid-column: 2;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 70%;
+}
+
+.title-beg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-med{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  text-align: center;
+}
+
+.edit-color{
+  color: #eb3287;
+}
+
+.img-aapm{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 125px;
+  z-index: 1000;
 }
 
 .right_school{
-  font-family: "Wix Madefor Display", sans-serif;
-  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
 }
 
 .right_title{
-  font-family: "Wix Madefor Display", sans-serif;
-  font-size: 90px;
+  font-family: "Libre Franklin", sans-serif;
+  color: #eb3287;
+  font-size: 100px;
   font-weight: bold;
 }
 .right_date{
-  font-family: "Wix Madefor Display", sans-serif;
-  font-size: 35px;
+  font-family: "Libre Franklin", sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 2px #00bfff;
+  font-size: 70px;
   font-weight: bold;
+}
+
+.aapm-font{
+  font-family: "Libre Franklin", sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 2px #00bfff;
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.container_bola{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  justify-content: center;
+  align-items: center;
 }
 
 .container_med{
-  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  text-align: center; 
+  align-items: center;
+  justify-content: center;
 }
 
+.text-left{
+  grid-column: 1;
+}
+
+
 .text_deco{
-  font-size: 70px;
+  font-size: 50px;
   color: #ffffff;
-  font-family: "Wix Madefor Text", sans-serif;
+  font-family: "Anton", sans-serif;
   justify-content: center;
   align-items: center;
   font-weight: bold;
 }
+
+.interclasse-espaco{
+  color: #eb3287;
+}
+
+.paixao-espaco{
+  color: #22addd;
+}
+
 hr{
-  width: 40%;
+  width: 52%;
   height: 6px;
   background-color: #ffffff;
+}
+
+.image-edit {
+  width: 80%;
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+  border: 6px solid #e83a96;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+.image-edit img {
+  width: 100%;
+  border-radius: 30px;
+  display: block;
+}
+
+.image-edit:hover {
+  transform: scale(1.1);
 }
 
 .container_esp{
@@ -291,24 +357,23 @@ hr{
 }
 
 .sports_title{
+  font-family: "Libre Franklin", sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 2px #e83a96;
   font-size: 90px;
-  font-family: "Wix Madefor Text", sans-serif;
-  justify-content: center;
-  align-items: center;
   font-weight: bold;
-  color: #ffffff;
 }
 
 .box_esportes{
   width: 62%;
   height: 80vh;
-  background-color: rgba(148, 146, 146, 0.6);
   border-radius: 20px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 40px;
+  background-color: rgba(34, 173, 221, 0.2);
 }
 
 .box_title{
@@ -330,9 +395,8 @@ hr{
 }
 
 .sports_style{
-  background-color: #410669;
-  width: 400px;
-  height: 130px;
+  width: 500px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -342,20 +406,108 @@ hr{
   font-weight: bold;
   font-size: 55px;
   border-radius: 30px;
+  opacity: 80%;
+}
+
+.sports_style img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.sports_style:hover img {
+  filter: blur(0px);
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.edit-img{
+  filter: blur(4px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.edit-img :hover{
+  filter: blur(0px);
+}
+
+.container_aapm{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .list_aapm{
+  grid-column: 1;
   height: 124vh;
   width: 90%;
   padding-top: 4rem;
   padding-left: 4rem;
 }
 
-.aapm_title{
-  font-size: 100px;
-  color: #ffffff;
-  font-family: "Wix Madefor Text", sans-serif;
+.list_benefits{
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aapm-editor{
+  width: 50%;
+  border: 6px solid #e83a96;
+  border-radius: 30px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.title-aapm{
+  font-family: "Libre Franklin", sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 2px #e83a96;
+  font-size: 90px;
   font-weight: bold;
+}
+
+.container_text{
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-aapm{
+  font-family: "Arapey", serif;
+  color: #fff;
+  font-size: 40px;
+  text-align: left;
+}
+
+.subtitle-aapm{
+  font-size: 50px;
+  color: #22addd;
+  font-family: "Anton", sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  opacity: 80%;
+}
+
+.text-blue{
+  font-size: 30px;
+  color: #22addd;
+  font-family: "Anton", sans-serif;
+  text-align: right;
+  font-weight: bold;
+  opacity: 80%;
+}
+
+.text-red{
+  font-size: 30px;
+  color: #e83a96;
+  font-family: "Anton", sans-serif;
+  text-align: right;
+  font-weight: bold;
+  opacity: 80%;
 }
 
 .elements_list{
@@ -365,13 +517,13 @@ hr{
 }
 
 footer{
-  height: 500px;
-  background-color: #250E33;
+  height: 200px;
+  background-color: #201f53;
 }
 
 .container_end{
   display: grid;
-  height: 500px;
+  height: 200px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -379,7 +531,7 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 500px;
+  height: 400px;
   padding-left: 100px;
 }
 
@@ -406,7 +558,7 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 400px;
 }
 
 .button{
@@ -415,7 +567,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #6B00B3;
+  background-color: #111144;
   border-radius: 20px;
 }
 .button_inc{
@@ -431,104 +583,16 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 400px;
 }
 
-.slider_esportes{
-  height: 100vh;
-  background-color: #6B00B3;
+.github_icon{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
-.slider {
-    width: 100%;
-    max-width: 1650px;
-    margin: 115px;
-    box-shadow: #c89971;
-    border-radius: 20px;
-    overflow: hidden;
-  }
-
-  .slider img {
-    width: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  
-  .slides {
-    display: flex;
-    width: 400%;
-    transition: transform 0.5s ease-in-out;
-    box-shadow: #c89971;
-    border-radius: 20px;
-  }
-  
-
-  .slide {
-    width: 100%;
-    flex-shrink: 0;
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .slide img {
-    width: 1650px;
-    object-fit: cover;
-    display: block;
-    border-radius: 20px;
-    transition: filter 0.3s ease;
-    z-index: 1;
-    position: relative;
-  }
-
-  .slide:hover img {
-  filter: blur(4px);
-  }
-
-  .slide-texto {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 28px;
-  padding: 16px 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
-  z-index: 999;
-  opacity: 1 !important;
-  border: 2px dashed red;
+.name_editor{
+  color: #fff;
+  font-size: 30px;
 }
-
-.slide:hover .slide-texto {
-  opacity: 1;
-}
-  
-.dots {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-  }
-  
-  .dot {
-    width: 15px;
-    height: 15px;
-    margin: 0 4px;
-    background-color: #ccc;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .dot.active {
-    background-color: #333;
-  }
-
-  .titulo_slider{
-    color: #ffffff;
-    font-size: 50px;
-
-  }
